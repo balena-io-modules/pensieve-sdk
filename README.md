@@ -4,7 +4,7 @@ Pensieve SDK
 [![npm](https://img.shields.io/npm/v/pensieve-sdk.svg?style=flat-square)](https://npmjs.com/package/pensieve-sdk)
 [![npm license](https://img.shields.io/npm/l/pensieve-sdk.svg?style=flat-square)](https://npmjs.com/package/pensieve-sdk)
 [![npm downloads](https://img.shields.io/npm/dm/pensieve-sdk.svg?style=flat-square)](https://npmjs.com/package/pensieve-sdk)
-[![travis](https://img.shields.io/travis/resin-io-moduless/pensieve-sdk/master.svg?style=flat-square&label=linux)](https://travis-ci.org/resin-io-moduless/pensieve-sdk)
+[![travis](https://img.shields.io/travis/resin-io-modules/pensieve-sdk/master.svg?style=flat-square&label=linux)](https://travis-ci.org/resin-io-modules/pensieve-sdk)
 
 > The official Pensieve Node.js/Browser SDK
 
@@ -264,8 +264,8 @@ npm test
 Contribute
 ----------
 
-- Issue Tracker: [github.com/resin-io-moduless/pensieve-sdk/issues](https://github.com/resin-io-moduless/pensieve-sdk/issues)
-- Source Code: [github.com/resin-io-moduless/pensieve-sdk](https://github.com/resin-io-moduless/pensieve-sdk)
+- Issue Tracker: [github.com/resin-io-modules/pensieve-sdk/issues](https://github.com/resin-io-modules/pensieve-sdk/issues)
+- Source Code: [github.com/resin-io-modules/pensieve-sdk](https://github.com/resin-io-modules/pensieve-sdk)
 
 Before submitting a PR, please make sure that you include tests, and that the
 linter runs without any warning:
