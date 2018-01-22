@@ -1,0 +1,16 @@
+- name: title
+  type: Case Insensitive Text
+- name: Height
+  type: Real
+- name: Weight
+  type: Real
+- name: Description
+  type: Case Insensitive Text
+- name: Category
+  type: Short Text
+- name: Abilities
+  type: Short Text
+- name: National Pokedex number
+  type: Integer
+- name: Caught
+  type: Boolean

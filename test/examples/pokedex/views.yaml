@@ -1,0 +1,22 @@
+- key: global
+  scopeLabel: everyone
+  title: Global
+  data:
+    - name: tester
+      rules:
+        - name: Full text search
+          value: char
+          id: l7lVKLmnllR8FeVn
+      id: 22Go4zuVHCqJiQQ9
+      scopeKey: global
+- key: TestUser
+  scopeLabel: just me
+  title: TestUser
+  data:
+    - name: macaroni
+      rules:
+        - name: Full text search
+          value: macaroni
+          id: G1M2z7kWhqrbo1fh
+      id: H9BALQr2nwKpQ08o
+      scopeKey: LucianBuzzo

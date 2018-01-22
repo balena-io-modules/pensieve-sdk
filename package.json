@@ -1,0 +1,46 @@
+{
+  "name": "pensieve-sdk",
+  "version": "1.0.0",
+  "description": "The official Pensieve SDK",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/resin-io-modules/pensieve-sdk",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:resin-io-modules/pensieve-sdk.git"
+  },
+  "scripts": {
+    "test": "npm run lint && nyc --reporter=lcov ava",
+    "readme": "jsdoc2md --template doc/README.hbs lib/index.js > README.md",
+    "lint": "eslint lib test"
+  },
+  "author": "Resin Inc. <hello@resin.io>",
+  "license": "Apache-2.0",
+  "ava": {
+    "concurrency": 1,
+    "serial": true,
+    "failFast": true
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsdoc": "^3.1.2",
+    "eslint-plugin-lodash": "^2.4.5",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jsdoc-to-markdown": "^3.0.4",
+    "nyc": "^11.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "github-api": "^3.0.0",
+    "js-base64": "^2.4.1",
+    "js-yaml": "^3.10.0",
+    "lodash": "^4.17.4",
+    "simple-git": "^1.89.0",
+    "tmp": "0.0.33",
+    "uuid": "^3.2.1"
+  }
+}

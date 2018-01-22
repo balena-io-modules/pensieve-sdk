@@ -1,0 +1,17 @@
+Pokedex:
+  - title: Shelder
+    Caught: false
+    Height: 2
+    Weight: 3
+    Description: Lorem ipsum dolor sit amet
+    PS_UUID: ac9212c0-d688-11e7-aa16-0f429a0f090a
+  - title: Charmander
+    Name: Charmander
+    Height: 0
+    Weight: 8.5
+    Description: Lorem ipsum dolor sit amet
+    Category: Lizard
+    Abilities: Blaze
+    National Pokedex number: 4
+    Favourite: '#Yes'
+    PS_UUID: e17b48c1-a9d9-11e7-b93c-0de164847969
