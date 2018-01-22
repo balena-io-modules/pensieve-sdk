@@ -20,7 +20,7 @@ const ava = require('ava')
 const _ = require('lodash')
 const path = require('path')
 const fs = require('fs')
-const Pensieve = require('../lib/index')
+const Pensieve = require('../lib/index').Pensieve
 const GitBackend = require('../lib/backends/git')
 const gitHelpers = require('./helpers/git')
 
